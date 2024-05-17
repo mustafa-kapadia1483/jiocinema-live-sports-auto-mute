@@ -1,0 +1,17 @@
+{
+  "name": "Jiocinema Enhancer",
+  "version": "1.0.0",
+  "description": "Few enhancements to make Jiocinema better",
+  "manifest_version": 3,
+  "author": "Mustafa Kapadia",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Hotstar Enhancer"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.jiocinema.com/*"],
+      "js": ["liveAdMute.js"]
+    }
+  ]
+}

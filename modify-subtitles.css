@@ -1,0 +1,5 @@
+.subtitle-container .cues-container .shaka-text-container span {
+  background-color: transparent !important;
+  -webkit-text-stroke: 1px #000 !important;
+  font-weight: 900 !important;
+}
